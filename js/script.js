@@ -1,34 +1,13 @@
 "use strict";
 
-let num = 20;
-function showFirstMesage(text) {
-	console.log("text");
-	let num = 10;
-	console.log(num);
-}
+let str = "tEst";
+console.log(str.length);
+let arr = [1, 2, 3];
+console.log(arr.length);
+console.log(str[2]);
+console.log(str.toLowerCase());
 
-showFirstMesage("hello word");
-console.log(num);
-
-function calc(a, b) {
-	return (a + b);
-}
-
-console.log(calc(4, 3));
-
-function ret() {
-	let num = 50;
-	return num;
-}
-const anathe = ret();
-console.log(anathe);
-
-const logger = function () {
-	console.log("hello");
-};
-logger();
-
-const calk = (a, b) => {
-	console.log("1");
-	return (a + b);
-}
+let fruit = 'some fruit';
+console.log(fruit.indexOf("f"));
+let slise = 'hello world';
+console.log(slise.substr(6, 2));
